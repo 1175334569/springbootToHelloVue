@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @Controller
 @CrossOrigin(origins = "*")
-public class HelloController {
+public class UserController {
 
     @Resource
     private IUserService iUserService;
